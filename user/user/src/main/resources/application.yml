@@ -1,0 +1,17 @@
+server:
+  port: 8008
+  servlet:
+    #context-path: /myfirst
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+
+spring:
+  application:
+    name: user
+
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
