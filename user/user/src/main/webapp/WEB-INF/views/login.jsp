@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h2>Login</h2>
-    <form method="post" action='<c:url value="/user/login" />'>
+    <form method="get" action='<c:url value="/user/login" />'>
         <table>
             <tbody>
                 <tr><th align="left">ID</th>
